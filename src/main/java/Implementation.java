@@ -10,6 +10,6 @@ public class Implementation implements MyRemoteInterface {
     //
     public boolean checkObj (Bogus a, Bogus b) {
         a.x = 50;
-        return a.x == b.x;
+        return a == b;
     }
 }
